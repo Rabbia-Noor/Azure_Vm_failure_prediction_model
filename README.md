@@ -4,10 +4,6 @@
 
 This project is a data analytics and machine learning-based solution designed to predict potential failures in Azure Virtual Machines (VMs). It analyzes system performance metrics to identify patterns that indicate possible VM failure. The goal is to improve system reliability, reduce downtime, and support proactive maintenance in cloud environments.
 
-The entire project is implemented in a single Jupyter Notebook:
-
-Final_Data_Analytics_Project.ipynb
-
 ---
 
 ## Objective
@@ -59,9 +55,7 @@ The dataset includes the following system performance metrics:
 
 The following supervised learning algorithms are used in this project:
 
-- Logistic Regression
-- Decision Tree
-- Random Forest (if implemented in notebook)
+- XGBoost
 
 These models are trained and compared to identify the best-performing approach for VM failure prediction.
 
@@ -134,6 +128,4 @@ The trained model is capable of analyzing VM performance metrics and predicting 
 ## Author
 
 Rabbia Noor  
-Computer Science Student | AI/ML Enthusiast  
-
 GitHub: https://github.com/Rabbia-Noor
